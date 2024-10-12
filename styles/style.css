@@ -43,6 +43,7 @@
   background-image: url(/images/cover.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: top ;
   width: 100%;
   color: #fff;
 }
@@ -153,7 +154,7 @@
   width: 334px;
   background-repeat: no-repeat;
   background-size: cover ;
-  background-position: relative;
+  background-position: top;
   padding: 51px 40px 48px;
   
 }

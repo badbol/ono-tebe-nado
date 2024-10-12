@@ -1,5 +1,5 @@
 .header {
-  padding: 92px 50px 93px;
+  padding: 92px 50px 91px;
   display: flex;
   justify-content: space-between;
   justify-items: center;
@@ -116,7 +116,7 @@
  
 }
 .lots {
-  padding: 182px 24px 0 ;
+  padding: 179px 24px 0 ;
   width: 100%;
   min-height: 100px;
 }

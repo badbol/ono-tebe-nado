@@ -4,7 +4,7 @@
   grid-template-columns: 1fr min-content 1fr;
   justify-items: end;
   align-items: center;
-  flex-wrap: nowrap;
+  white-space: nowrap;
   gap: 36px;
   font-size: 18px;
   font-weight: normal;

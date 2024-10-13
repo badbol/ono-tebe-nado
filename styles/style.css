@@ -1,23 +1,18 @@
 .header {
   padding: 92px 50px 91px;
-  display: flex;
-  justify-content: space-between;
-  justify-items: center;
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  justify-items: end;
   align-items: center;
+  gap: 36px;
   font-size: 18px;
   font-weight: normal;
 }
-.header_item_none {
+.link-active_none {
   text-decoration: none;
-
 }
-.header__links-list-item_no-bullit {
+.links-list-item_no-bullit {
   list-style-type: none;
-}
- .header_flex {
-  display: flex;
-  gap: 36px;
-  align-items: center;
 }
 .header__menu {
   display: flex;
@@ -28,13 +23,10 @@
   height: 105px;
   width: 148px;
 }
-
-.header__address {
+address {
   display: flex;
   font-style: normal;
   flex-direction: column;
-}
-.address {
   width: 240px;
   line-height: 1.33;
 } 
@@ -68,13 +60,7 @@
   justify-content: end;
   line-height: 1.1em;
   }
-.cover_text_ono {
-  letter-spacing: 0.8em;
-}
-.cover_text_tebe {
-  letter-spacing: 0.6em;
-}
-.cover_text_nado {
+.letter-spacing-extended {
   letter-spacing: 0.6em;
 }
 .cover_text_letter_spacing {
@@ -96,14 +82,9 @@
   align-items: center;
 }
 .cover__description-text {
-  display: flex;
-  justify-content: space-between;
   font-size: 22px;
   text-transform: uppercase;
-  width: 637px;
-  
-  
-  
+  word-spacing: 0.8em;
 }
 .bet-button {
   background: transparent;
@@ -207,8 +188,7 @@
   height: 240px;
   border-radius: 50%;
   background: #000;
-  margin-top: 35px;
-  
+  margin-top: 35px; 
 }
 .logo-white {
   width: 148px;
@@ -225,14 +205,12 @@
   gap: 24px;
   font-size: 20px;
   line-height: 1.2em;
-  
 }
 .footer {
-  padding: 180px 50px 0;
+  padding: 180px 50px 88px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   font-size: 18px;
-  
 }
 .social_item {
   width: 48px;

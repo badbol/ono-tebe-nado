@@ -4,6 +4,7 @@
   grid-template-columns: 1fr min-content 1fr;
   justify-items: end;
   align-items: center;
+  flex-wrap: nowrap;
   gap: 36px;
   font-size: 18px;
   font-weight: normal;
@@ -35,7 +36,7 @@ address {
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top ;
+  background-position: top;
   width: 100%;
   color: #fff;
 }
@@ -53,13 +54,16 @@ address {
 .aligned-text_center {
   display: flex;
   justify-content: center;
-  line-height: 1.3em;
+  line-height: 1.4em;
 }
 .aligned-text_right {
   display: flex;
   justify-content: end;
-  line-height: 1.1em;
+  line-height: 1em;
   }
+.no-letter-spacing {
+  letter-spacing: 0.05em;
+}
 .letter-spacing-extended {
   letter-spacing: 0.6em;
 }
@@ -75,7 +79,6 @@ address {
 .cover__description {
   display: flex;
   justify-content: space-between;
-  gap: 79px;
   position: relative;
   z-index: 2;
   padding: 0 50px 51px 78px;
@@ -84,7 +87,7 @@ address {
 .cover__description-text {
   font-size: 22px;
   text-transform: uppercase;
-  word-spacing: 0.8em;
+  word-spacing: 0.85em;
 }
 .bet-button {
   background: transparent;

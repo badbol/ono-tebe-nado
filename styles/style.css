@@ -1,10 +1,9 @@
 .header {
-  padding: 92px 50px 91px;
+  padding: 92px 50px 0;
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   justify-items: end;
   align-items: center;
-  white-space: nowrap;
   gap: 36px;
   font-size: 18px;
   font-weight: normal;
@@ -16,7 +15,8 @@
   list-style-type: none;
 }
 .header__menu {
-  display: flex;
+  display: grid;
+  grid-template-columns:  67px 151px 110px;
   list-style: circle;
   gap: 32px
 }
@@ -25,10 +25,8 @@
   width: 148px;
 }
 address {
-  display: flex;
   font-style: normal;
-  flex-direction: column;
-  width: 240px;
+  max-width: 240px;
   line-height: 1.33;
 } 
 .cover {
@@ -39,6 +37,7 @@ address {
   background-position: top;
   width: 100%;
   color: #fff;
+  margin-top: 93px;
 }
 .cover__title {
   position: relative;
@@ -94,15 +93,13 @@ address {
   color: #fff;
   text-transform: uppercase;
   font-size: 22px;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   padding: 12px 32px 11px 31px;
-  white-space: nowrap;
-  border-color: #fff;
+  border: 1px solid #fff;
  
 }
 .lots {
   padding: 175px 24px 0;
-  min-height: 100px;
 }
 .card_flex {
   display: flex;

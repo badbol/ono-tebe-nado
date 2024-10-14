@@ -96,6 +96,8 @@ address {
   font-family: Raleway, sans-serif;
   padding: 12px 32px 11px 31px;
   border: 1px solid #fff;
+  max-width: 256px;
+  white-space: nowrap;
  
 }
 .lots {

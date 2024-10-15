@@ -44,7 +44,7 @@ address {
   font-size: 100px;
   font-weight: bold;
   z-index: 2;
-  padding: 165px 50px 135px;
+  padding: 165px 50px 134px;
   text-transform: uppercase;
 }
 .aligned-text {
@@ -86,7 +86,7 @@ address {
 .cover__description-text {
   font-size: 22px;
   text-transform: uppercase;
-  word-spacing: 0.86em;
+  word-spacing: 0.85em;
 }
 .bet-button {
   background: transparent;

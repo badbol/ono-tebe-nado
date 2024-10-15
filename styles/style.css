@@ -37,7 +37,7 @@ address {
   background-position: top;
   width: 100%;
   color: #fff;
-  margin-top: 93px;
+  margin-top: 88px;
 }
 .cover__title {
   position: relative;
@@ -80,7 +80,7 @@ address {
   justify-content: space-between;
   position: relative;
   z-index: 2;
-  padding: 0 50px 51px 78px;
+  padding: 0 50px 48px 78px;
   align-items: center;
 }
 .cover__description-text {
@@ -98,10 +98,11 @@ address {
   border: 1px solid #fff;
   max-width: 256px;
   white-space: nowrap;
+  
  
 }
 .lots {
-  padding: 175px 24px 0;
+  padding: 179px 24px 0;
 }
 .card_flex {
   display: flex;

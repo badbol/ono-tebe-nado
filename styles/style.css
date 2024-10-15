@@ -37,7 +37,7 @@ address {
   background-position: top;
   width: 100%;
   color: #fff;
-  margin-top: 91px;
+  margin-top: 92px;
 }
 .cover__title {
   position: relative;
@@ -86,7 +86,7 @@ address {
 .cover__description-text {
   font-size: 22px;
   text-transform: uppercase;
-  word-spacing: 0.85em;
+  word-spacing: 0.9em;
 }
 .bet-button {
   background: transparent;

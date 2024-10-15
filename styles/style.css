@@ -86,7 +86,7 @@ address {
 .cover__description-text {
   font-size: 22px;
   text-transform: uppercase;
-  word-spacing: 0.85em;
+  word-spacing: 0.845em;
 }
 .bet-button {
   background: transparent;
@@ -102,7 +102,7 @@ address {
  
 }
 .lots {
-  padding: 179px 24px 0;
+  padding: 180px 24px 0;
 }
 .card_flex {
   display: flex;
